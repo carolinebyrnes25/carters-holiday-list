@@ -19,4 +19,5 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm typecheck
       - run: pnpm test:claims
+      - run: pnpm test:demo
       - run: pnpm build

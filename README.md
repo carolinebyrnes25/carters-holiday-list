@@ -6,6 +6,14 @@ Built by Caroline Byrnes with Codex. This repository is a showcase snapshot of t
 
 ![Carter’s holiday portrait](public/images/carter-banner-navy.webp)
 
+## Try the demo
+
+[Open the interactive demo](https://carters-holiday-demo.cfroehlich14.chatgpt.site)
+
+Browse all four categories, mark a sample gift purchased, simulate a contribution, and switch to **Try owner controls** to edit or remove gifts. **Reset demo** restores the sample list. Changes are isolated to each visit and no money is sent. The demo has no connection to the family database or payment destinations.
+
+The same demo is available locally at `/demo` after starting the app; it works without a D1 database or sign-in. The dedicated hosted demo uses this route as its home page, blocks server mutation APIs, and declares no database binding.
+
 ## Product experience
 
 - Four categories: educational toys, clothes, investment gifts, and miscellaneous essentials.
@@ -50,6 +58,7 @@ D1 migrations live in `drizzle/`. The local preview uses Cloudflare’s local da
 ```sh
 pnpm typecheck
 pnpm test:claims
+pnpm test:demo
 pnpm build
 ```
 
@@ -63,6 +72,8 @@ The claim verification script exercises the actual claim SQL against SQLite: sim
 | `app/api/` | Catalog, purchase claims, owner updates |
 | `lib/registry.ts` | Database access, validation, seeding, owner checks |
 | `lib/catalog.ts` | Initial sample catalog |
+| `lib/demo.ts` | Isolated sample data and demo interactions |
+| `app/demo/page.tsx` | Interactive public demo route |
 | `app/chatgpt-auth.ts` | Hosted authentication integration |
 | `db/`, `drizzle/` | Schema and migrations |
 | `components/ui/` | Reusable accessible UI primitives |

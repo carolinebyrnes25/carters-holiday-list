@@ -38,3 +38,8 @@ The `.openai/hosting.json` showcase file contains logical bindings only. It deli
 - The college fund is displayed as maxed out by an explicit UI rule.
 - The source still contains legacy reservation support; the current guest purchase flow records gifts after purchase.
 - Native save/share behavior depends on browser support; image download and touch-and-hold are fallbacks.
+
+
+## Portfolio demo
+
+`/demo` renders the registry with an in-memory sample store. All demo reads and writes use that store; API polling and browser tool registration are disabled in demo mode. Owner controls are a public preview, not authenticated access to production. Reload or Reset demo restores sample data. The standalone demo deployment mounts the demo at `/`, replaces API handlers with 410 responses, and omits D1 and R2 bindings. The public GitHub repository retains the original server implementation alongside this isolated route.

@@ -13,7 +13,8 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "typecheck": "tsc --noEmit",
-    "test:claims": "python3 scripts/test-reservations.py"
+    "test:claims": "python3 scripts/test-reservations.py",
+    "test:demo": "node scripts/test-demo.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
