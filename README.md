@@ -4,6 +4,8 @@ A mobile-first gift registry built to solve a real family problem: buying useful
 
 Built by Caroline Byrnes with Codex. This repository is a showcase snapshot of the working application; family payment destinations and production data are excluded.
 
+![Carter’s holiday portrait](public/images/carter-banner-navy.webp)
+
 ## Product experience
 
 - Four categories: educational toys, clothes, investment gifts, and miscellaneous essentials.
