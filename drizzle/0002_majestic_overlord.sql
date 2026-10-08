@@ -1,0 +1,1 @@
+ALTER TABLE `gifts` ADD `secondary_url` text DEFAULT '' NOT NULL;

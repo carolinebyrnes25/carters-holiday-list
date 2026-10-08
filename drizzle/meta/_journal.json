@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791409681082,
+      "tag": "0000_breezy_deadpool",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791410231447,
+      "tag": "0001_brown_typhoid_mary",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791410435593,
+      "tag": "0002_majestic_overlord",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791410927452,
+      "tag": "0003_dusty_bromley",
+      "breakpoints": true
+    }
+  ]
+}
